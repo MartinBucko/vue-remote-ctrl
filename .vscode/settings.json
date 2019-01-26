@@ -1,0 +1,21 @@
+{
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+    },
+    "prettyhtml": {
+      "printWidth": 100,
+      "singleQuote": false,
+      "wrapAttributes": true,
+      "sortAttributes": true
+    }
+  },
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "vetur.validation.template": true,
+  "eslint.provideLintTask": true,
+  "vetur.validation.script": false
+}
