@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     options() {
-      return this.$store.state.remote.ctrl[this.name] || []
+      return this.$store.state.remote ? this.$store.state.remote.ctrl[this.name] || [] : []
     }
   },
   methods: {
