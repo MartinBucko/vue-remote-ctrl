@@ -33,7 +33,7 @@ Open Web UI on  [http://localhost:8080](http://localhost:8080)
 
 ## Contributing
 
-Just fork and make pull request. Or add PR.
+Just fork and make [pull request](https://github.com/MartinBucko/vue-remote-ctrl/compare/dev?expand=1). [OR AD PR](https://github.com/MartinBucko/vue-remote-ctrl/issues/new).
 
 ## License
 
