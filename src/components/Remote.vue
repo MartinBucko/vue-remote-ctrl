@@ -1,15 +1,15 @@
 <template>
-  <div class="remote">
-    <template v-for="btn in options.buttons">
+  <div class="remote col text-center">
+    <template v-for="(btn, index) in options.buttons">
+      <br v-if="btn.cmd === 'br'" :key="index" />
       <q-btn
-        :key="btn.cmd"
-        :v-if="!btn.hidden"
+        :key="index"
         @click="sendCmd(btn)"
-        :color="btn.color || ''"
-        :icon="btn.icon"
+        v-bind="btn"
+        v-if="!btn.hidden && btn.cmd !== 'br'"
       >
         <q-tooltip>{{ btn.cmd }}</q-tooltip>
-      </q-btn>
+        </q-btn>
     </template>
   </div>
 </template>
@@ -28,11 +28,19 @@ export default {
   },
   computed: {
     options() {
-      return this.$store.state.remote ? this.$store.state.remote.ctrl[this.name] || [] : []
+      return this.$store.state.remote
+        ? this.$store.state.remote.ctrl[this.name] || []
+        : []
     }
   },
   methods: {
-    ...call('remote/*')
+    ...call('remote/*'),
   },
 }
 </script>
+
+<style scoped>
+hr {
+  opacity: 0.3;
+}
+</style>

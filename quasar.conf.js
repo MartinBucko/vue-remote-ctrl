@@ -2,7 +2,7 @@
 
 module.exports = ctx => ({
   // app plugins (/src/plugins)
-  plugins: ['axios'],
+  plugins: ['axios', 'mqtt'],
   css: ['app.styl'],
   extras: [
     ctx.theme.mat ? 'roboto-font' : null,
@@ -30,8 +30,8 @@ module.exports = ctx => ({
   },
   devServer: {
     // https: true,
-    // port: 8080,
-    open: false, // opens browser window automatically
+    port: 8080,
+    open: false // opens browser window automatically
   },
   framework: 'all', // --- includes everything; for dev only!
   // framework: {

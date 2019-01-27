@@ -1,4 +1,3 @@
-export function someGetter() {
-  return 'someGetter'
+export function remote(ctrlName) {
+  return state => state.ctrl[ctrlName]
 }
-
