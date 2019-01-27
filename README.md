@@ -4,11 +4,11 @@ Web ui remote universal controller.
 
 ## Based on
 
-* [Vue]() - Mater pieace for frontends!
-* [Quasar](https://quasar-framework.org/) - Vue UI framerwork
-* [VueRouter](/) - Vue frontend router
-* [Vuex](/) - Vue local data from components
-* [Pathify](/) - Vue local data plugin with helpers
+* [Vue](https://vuejs.org/) - Mater pieace for frontends
+* [Quasar](https://quasar-framework.org) - Vue UI framerwork
+* [VueRouter](https://router.vuejs.org) - Vue frontend router
+* [Vuex](https://vuex.vuejs.org) - Vue local data from components
+* [Pathify](https://davestewart.github.io/vuex-pathify) - Vue local data plugin with helpers
 
 ## Install
 
@@ -25,10 +25,12 @@ Open Web UI on  [http://localhost:8080](http://localhost:8080)
 
 ## TODO
 
-* connect to remote
+* Connect to remote controller provider/proxy
 * Auth to remote
 * TLS support to remote
 * Settings in local storage
+  * connection settings
+  * edit remote settings
 * Docker support
 
 ## Develop
@@ -43,7 +45,7 @@ npm run dev
 
 ## Contributing
 
-* See [Develop Section](#Develop)
+* See [Develop Section](#develop)
 * Just fork and make [pull request](https://github.com/MartinBucko/vue-remote-ctrl/compare/dev?expand=1)
 * [Add PR](https://github.com/MartinBucko/vue-remote-ctrl/issues/new)
 
