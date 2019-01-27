@@ -1,6 +1,8 @@
 # Web Universal Remote Controller UI
 
-Web ui remote universal controller.
+Web ui remote universal controller. UI is optimized for mobiles first.
+
+![Web Universal Remote Controller UI](src/statics/demo-ui.jpg)
 
 ## Based on
 
@@ -45,10 +47,10 @@ npm run dev
 
 ## Contributing
 
-* See [Develop Section](#develop)
-* Just fork and make [pull request](https://github.com/MartinBucko/vue-remote-ctrl/compare/dev?expand=1)
-* [Add PR](https://github.com/MartinBucko/vue-remote-ctrl/issues/new)
+* See [Develop Section](#develop).
+* Just fork and make [pull request](https://github.com/MartinBucko/vue-remote-ctrl/compare/dev?expand=1).
+* Found bug? Have some idea? Just [add PR](https://github.com/MartinBucko/vue-remote-ctrl/issues/new). B-)
 
 ## License
 
-[MIT](./LICENSE.md)
+[MIT](./LICENSE.md) - read at [LICENSE.md](./LICENSE.md)
